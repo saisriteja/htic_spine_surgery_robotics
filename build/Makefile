@@ -816,97 +816,6 @@ clean_test_results_staubli_rx160_support/fast:
 .PHONY : clean_test_results_staubli_rx160_support/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_staubli_val3_driver_roslaunch-check
-
-# Build rule for target.
-run_tests_staubli_val3_driver_roslaunch-check: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_staubli_val3_driver_roslaunch-check
-.PHONY : run_tests_staubli_val3_driver_roslaunch-check
-
-# fast build rule for target.
-run_tests_staubli_val3_driver_roslaunch-check/fast:
-	$(MAKE) -f staubli_val3_driver/staubli_val3_driver/CMakeFiles/run_tests_staubli_val3_driver_roslaunch-check.dir/build.make staubli_val3_driver/staubli_val3_driver/CMakeFiles/run_tests_staubli_val3_driver_roslaunch-check.dir/build
-.PHONY : run_tests_staubli_val3_driver_roslaunch-check/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_staubli_val3_driver_roslaunch-check
-
-# Build rule for target.
-_run_tests_staubli_val3_driver_roslaunch-check: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_staubli_val3_driver_roslaunch-check
-.PHONY : _run_tests_staubli_val3_driver_roslaunch-check
-
-# fast build rule for target.
-_run_tests_staubli_val3_driver_roslaunch-check/fast:
-	$(MAKE) -f staubli_val3_driver/staubli_val3_driver/CMakeFiles/_run_tests_staubli_val3_driver_roslaunch-check.dir/build.make staubli_val3_driver/staubli_val3_driver/CMakeFiles/_run_tests_staubli_val3_driver_roslaunch-check.dir/build
-.PHONY : _run_tests_staubli_val3_driver_roslaunch-check/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_staubli_val3_driver
-
-# Build rule for target.
-_run_tests_staubli_val3_driver: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_staubli_val3_driver
-.PHONY : _run_tests_staubli_val3_driver
-
-# fast build rule for target.
-_run_tests_staubli_val3_driver/fast:
-	$(MAKE) -f staubli_val3_driver/staubli_val3_driver/CMakeFiles/_run_tests_staubli_val3_driver.dir/build.make staubli_val3_driver/staubli_val3_driver/CMakeFiles/_run_tests_staubli_val3_driver.dir/build
-.PHONY : _run_tests_staubli_val3_driver/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml
-
-# Build rule for target.
-_run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml
-.PHONY : _run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml
-
-# fast build rule for target.
-_run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml/fast:
-	$(MAKE) -f staubli_val3_driver/staubli_val3_driver/CMakeFiles/_run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml.dir/build.make staubli_val3_driver/staubli_val3_driver/CMakeFiles/_run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml.dir/build
-.PHONY : _run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_staubli_val3_driver
-
-# Build rule for target.
-clean_test_results_staubli_val3_driver: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_staubli_val3_driver
-.PHONY : clean_test_results_staubli_val3_driver
-
-# fast build rule for target.
-clean_test_results_staubli_val3_driver/fast:
-	$(MAKE) -f staubli_val3_driver/staubli_val3_driver/CMakeFiles/clean_test_results_staubli_val3_driver.dir/build.make staubli_val3_driver/staubli_val3_driver/CMakeFiles/clean_test_results_staubli_val3_driver.dir/build
-.PHONY : clean_test_results_staubli_val3_driver/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml
-
-# Build rule for target.
-run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml
-.PHONY : run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml
-
-# fast build rule for target.
-run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml/fast:
-	$(MAKE) -f staubli_val3_driver/staubli_val3_driver/CMakeFiles/run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml.dir/build.make staubli_val3_driver/staubli_val3_driver/CMakeFiles/run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml.dir/build
-.PHONY : run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_staubli_val3_driver
-
-# Build rule for target.
-run_tests_staubli_val3_driver: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_staubli_val3_driver
-.PHONY : run_tests_staubli_val3_driver
-
-# fast build rule for target.
-run_tests_staubli_val3_driver/fast:
-	$(MAKE) -f staubli_val3_driver/staubli_val3_driver/CMakeFiles/run_tests_staubli_val3_driver.dir/build.make staubli_val3_driver/staubli_val3_driver/CMakeFiles/run_tests_staubli_val3_driver.dir/build
-.PHONY : run_tests_staubli_val3_driver/fast
-
-#=============================================================================
 # Target rules for targets named realsense2_camera_genpy
 
 # Build rule for target.
@@ -3335,13 +3244,6 @@ help:
 	@echo "... run_tests_staubli_rx160_support_roslaunch-check_tests_roslaunch_test.xml"
 	@echo "... _run_tests_staubli_rx160_support_roslaunch-check_tests_roslaunch_test.xml"
 	@echo "... clean_test_results_staubli_rx160_support"
-	@echo "... run_tests_staubli_val3_driver_roslaunch-check"
-	@echo "... _run_tests_staubli_val3_driver_roslaunch-check"
-	@echo "... _run_tests_staubli_val3_driver"
-	@echo "... _run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml"
-	@echo "... clean_test_results_staubli_val3_driver"
-	@echo "... run_tests_staubli_val3_driver_roslaunch-check_tests_roslaunch_test.xml"
-	@echo "... run_tests_staubli_val3_driver"
 	@echo "... realsense2_camera_genpy"
 	@echo "... realsense2_camera_generate_messages_lisp"
 	@echo "... realsense2_camera_geneus"

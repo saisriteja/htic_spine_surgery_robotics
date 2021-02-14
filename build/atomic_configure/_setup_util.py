@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/saisriteja/catkin_rough/devel;/home/saisriteja/catkin_staubli/devel;/home/saisriteja/wanderbot_ws/devel;/home/saisriteja/catkin_ws/devel;/home/saisriteja/ws_moveit/devel;/opt/ros/kinetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/saisriteja/htic_spine_surgery_robotics/devel;/home/saisriteja/catkin_rough/devel;/home/saisriteja/catkin_staubli/devel;/home/saisriteja/wanderbot_ws/devel;/home/saisriteja/catkin_ws/devel;/home/saisriteja/ws_moveit/devel;/opt/ros/kinetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

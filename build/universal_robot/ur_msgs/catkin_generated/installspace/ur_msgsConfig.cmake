@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/saisriteja/htic_spine_surgery_robotics/install/lib;/home/saisriteja/catkin_rough/devel/lib;/home/saisriteja/catkin_staubli/devel/lib;/home/saisriteja/wanderbot_ws/devel/lib;/home/saisriteja/catkin_ws/devel/lib;/home/saisriteja/ws_moveit/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/saisriteja/htic_spine_surgery_robotics/install/lib;/home/saisriteja/htic_spine_surgery_robotics/devel/lib;/home/saisriteja/catkin_rough/devel/lib;/home/saisriteja/catkin_staubli/devel/lib;/home/saisriteja/wanderbot_ws/devel/lib;/home/saisriteja/catkin_ws/devel/lib;/home/saisriteja/ws_moveit/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

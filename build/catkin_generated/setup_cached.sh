@@ -7,8 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/saisriteja/htic_spine_surgery_robotics/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/saisriteja/htic_spine_surgery_robotics/devel/lib:$LD_LIBRARY_PATH"
 export PWD='/home/saisriteja/htic_spine_surgery_robotics/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/saisriteja/htic_spine_surgery_robotics/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/saisriteja/htic_spine_surgery_robotics/src:$ROS_PACKAGE_PATH"

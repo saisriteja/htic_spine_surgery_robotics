@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "staubli_rx160_moveit_config"
 PROJECT_SPACE_DIR = "/home/saisriteja/htic_spine_surgery_robotics/install"
-PROJECT_VERSION = "0.1.0"
+PROJECT_VERSION = "0.3.0"

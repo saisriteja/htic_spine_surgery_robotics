@@ -1,38 +1,34 @@
-<?xml version="1.0"?>
-<package format="2">
+<package>
+
   <name>staubli_rx160_moveit_config</name>
-  <version>0.1.0</version>
+  <version>0.3.0</version>
   <description>
-    <p>
-      MoveIt package for the Staubli RX160.
-    </p>
-    <p>
-      An automatically generated package with all the configuration and launch
-      files for using the Staubli RX160 with the MoveIt Motion Planning
-      Framework.
-    </p>
+     An automatically generated package with all the configuration and launch files for using the staubli_rx160 with the MoveIt! Motion Planning Framework
   </description>
-  <author email="assistant@moveit.ros.org">MoveIt Setup Assistant</author>
-  <maintainer email="g.a.vanderhoorn@tudelft.nl">G.A. vd. Hoorn (TU Delft Robotics Institute)</maintainer>
+  <author email="kuppasaisriteja@gmail.com">saisriteja</author>
+  <maintainer email="kuppasaisriteja@gmail.com">saisriteja</maintainer>
 
   <license>BSD</license>
 
-  <url type="website">http://ros.org/wiki/staubli_rx160_moveit_config</url>
-  <url type="bugtracker">https://github.com/ros-industrial/staubli/issues</url>
-  <url type="repository">https://github.com/ros-industrial/staubli</url>
+  <url type="website">http://moveit.ros.org/</url>
+  <url type="bugtracker">https://github.com/ros-planning/moveit/issues</url>
+  <url type="repository">https://github.com/ros-planning/moveit</url>
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <depend>staubli_rx160_support</depend>
+  <run_depend>moveit_ros_move_group</run_depend>
+  <run_depend>moveit_fake_controller_manager</run_depend>
+  <run_depend>moveit_kinematics</run_depend>
+  <run_depend>moveit_planners_ompl</run_depend>
+  <run_depend>moveit_ros_visualization</run_depend>
+  <run_depend>moveit_setup_assistant</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>xacro</run_depend>
+  <!-- This package is referenced in the warehouse launch files, but does not build out of the box at the moment. Commented the dependency until this works. -->
+  <!-- <run_depend>warehouse_ros_mongo</run_depend> -->
+  <build_depend>staubli_rx160_support</build_depend>
+  <run_depend>staubli_rx160_support</run_depend>
 
-  <exec_depend>moveit_ros_move_group</exec_depend>
-  <exec_depend>moveit_planners_ompl</exec_depend>
-  <exec_depend>moveit_ros_visualization</exec_depend>
-  <exec_depend>joint_state_publisher</exec_depend>
-  <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>xacro</exec_depend>
 
-  <export>
-    <architecture_independent />
-  </export>
 </package>

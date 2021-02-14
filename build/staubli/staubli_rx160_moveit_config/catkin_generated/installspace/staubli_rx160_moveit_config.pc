@@ -2,7 +2,7 @@ prefix=/home/saisriteja/htic_spine_surgery_robotics/install
 
 Name: staubli_rx160_moveit_config
 Description: Description of staubli_rx160_moveit_config
-Version: 0.1.0
+Version: 0.3.0
 Cflags: 
 Libs: -L${prefix}/lib 
 Requires: 

@@ -2,7 +2,7 @@ prefix=/home/saisriteja/htic_spine_surgery_robotics/devel
 
 Name: realsense2_description
 Description: Description of realsense2_description
-Version: 2.2.21
+Version: 3.1.7
 Cflags: 
 Libs: -L${prefix}/lib 
 Requires: 

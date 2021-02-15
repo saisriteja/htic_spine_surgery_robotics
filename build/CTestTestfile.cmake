@@ -5,7 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
-subdirs(realsense-ros/realsense2_description)
+subdirs(realsense2_description)
 subdirs(staubli/staubli)
 subdirs(staubli/staubli_resources)
 subdirs(universal_robot/universal_robot)
@@ -15,6 +15,7 @@ subdirs(universal_robot/ur_e_description)
 subdirs(universal_robot/ur_msgs)
 subdirs(staubli/staubli_rx160_support)
 subdirs(realsense-ros/realsense2_camera)
+subdirs(realsense_gazebo_plugin)
 subdirs(universal_robot/ur_bringup)
 subdirs(universal_robot/ur_driver)
 subdirs(universal_robot/ur_e_gazebo)

@@ -181,66 +181,6 @@ octomap_msgs_generate_messages_nodejs/fast:
 .PHONY : octomap_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_eus: staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_eus
-
-# fast build rule for target.
-octomap_msgs_generate_messages_eus/fast:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
-.PHONY : octomap_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_cpp: staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_cpp
-
-# fast build rule for target.
-octomap_msgs_generate_messages_cpp/fast:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
-.PHONY : octomap_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
-.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-object_recognition_msgs_generate_messages_py: staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
-
-.PHONY : object_recognition_msgs_generate_messages_py
-
-# fast build rule for target.
-object_recognition_msgs_generate_messages_py/fast:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build
-.PHONY : object_recognition_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
-.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-object_recognition_msgs_generate_messages_lisp: staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : object_recognition_msgs_generate_messages_lisp
-
-# fast build rule for target.
-object_recognition_msgs_generate_messages_lisp/fast:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build
-.PHONY : object_recognition_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
 staubli/staubli_rx160_moveit_plugins/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule:
 	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule
 .PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule
@@ -286,6 +226,21 @@ moveit_msgs_generate_messages_py/fast:
 .PHONY : moveit_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule:
+	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
+.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+octomap_msgs_generate_messages_eus: staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
+
+.PHONY : octomap_msgs_generate_messages_eus
+
+# fast build rule for target.
+octomap_msgs_generate_messages_eus/fast:
+	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
+.PHONY : octomap_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
 staubli/staubli_rx160_moveit_plugins/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 .PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
@@ -314,21 +269,6 @@ shape_msgs_generate_messages_lisp: staubli/staubli_rx160_moveit_plugins/CMakeFil
 shape_msgs_generate_messages_lisp/fast:
 	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build
 .PHONY : shape_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_nodejs: staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_nodejs/fast:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
-.PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 staubli/staubli_rx160_moveit_plugins/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule:
@@ -436,6 +376,21 @@ shape_msgs_generate_messages_nodejs/fast:
 .PHONY : shape_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
+staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule:
+	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
+.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+object_recognition_msgs_generate_messages_py: staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
+
+.PHONY : object_recognition_msgs_generate_messages_py
+
+# fast build rule for target.
+object_recognition_msgs_generate_messages_py/fast:
+	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build
+.PHONY : object_recognition_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 staubli/staubli_rx160_moveit_plugins/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule:
 	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule
 .PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule
@@ -449,21 +404,6 @@ moveit_msgs_generate_messages_cpp: staubli/staubli_rx160_moveit_plugins/CMakeFil
 moveit_msgs_generate_messages_cpp/fast:
 	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build
 .PHONY : moveit_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_py: staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 staubli/staubli_rx160_moveit_plugins/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule:
@@ -556,34 +496,19 @@ moveit_msgs_generate_messages_lisp/fast:
 .PHONY : moveit_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule:
+	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
+.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-trajectory_msgs_generate_messages_cpp: staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+object_recognition_msgs_generate_messages_lisp: staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
 
-.PHONY : trajectory_msgs_generate_messages_cpp
+.PHONY : object_recognition_msgs_generate_messages_lisp
 
 # fast build rule for target.
-trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-.PHONY : trajectory_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_eus: staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_eus
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_eus/fast:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
-.PHONY : trajectory_msgs_generate_messages_eus/fast
+object_recognition_msgs_generate_messages_lisp/fast:
+	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build
+.PHONY : object_recognition_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/rule:
@@ -601,19 +526,19 @@ object_recognition_msgs_generate_messages_nodejs/fast:
 .PHONY : object_recognition_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule:
+	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
+.PHONY : staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-trajectory_msgs_generate_messages_lisp: staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+octomap_msgs_generate_messages_cpp: staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
 
-.PHONY : trajectory_msgs_generate_messages_lisp
+.PHONY : octomap_msgs_generate_messages_cpp
 
 # fast build rule for target.
-trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-.PHONY : trajectory_msgs_generate_messages_lisp/fast
+octomap_msgs_generate_messages_cpp/fast:
+	cd /home/saisriteja/htic_spine_surgery_robotics/build && $(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
+.PHONY : octomap_msgs_generate_messages_cpp/fast
 
 # Help Target
 help:
@@ -627,18 +552,14 @@ help:
 	@echo "... install/strip"
 	@echo "... test"
 	@echo "... octomap_msgs_generate_messages_nodejs"
-	@echo "... octomap_msgs_generate_messages_eus"
-	@echo "... octomap_msgs_generate_messages_cpp"
-	@echo "... object_recognition_msgs_generate_messages_py"
-	@echo "... object_recognition_msgs_generate_messages_lisp"
 	@echo "... shape_msgs_generate_messages_eus"
 	@echo "... install"
 	@echo "... octomap_msgs_generate_messages_lisp"
 	@echo "... moveit_msgs_generate_messages_py"
+	@echo "... octomap_msgs_generate_messages_eus"
 	@echo "... list_install_components"
 	@echo "... visualization_msgs_generate_messages_nodejs"
 	@echo "... shape_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_nodejs"
 	@echo "... visualization_msgs_generate_messages_eus"
 	@echo "... visualization_msgs_generate_messages_cpp"
 	@echo "... visualization_msgs_generate_messages_py"
@@ -646,18 +567,17 @@ help:
 	@echo "... moveit_msgs_generate_messages_nodejs"
 	@echo "... shape_msgs_generate_messages_cpp"
 	@echo "... shape_msgs_generate_messages_nodejs"
+	@echo "... object_recognition_msgs_generate_messages_py"
 	@echo "... moveit_msgs_generate_messages_cpp"
-	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... visualization_msgs_generate_messages_lisp"
 	@echo "... object_recognition_msgs_generate_messages_cpp"
 	@echo "... moveit_msgs_generate_messages_eus"
 	@echo "... object_recognition_msgs_generate_messages_eus"
 	@echo "... octomap_msgs_generate_messages_py"
 	@echo "... moveit_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_cpp"
-	@echo "... trajectory_msgs_generate_messages_eus"
+	@echo "... object_recognition_msgs_generate_messages_lisp"
 	@echo "... object_recognition_msgs_generate_messages_nodejs"
-	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... octomap_msgs_generate_messages_cpp"
 .PHONY : help
 
 

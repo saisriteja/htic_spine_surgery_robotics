@@ -283,58 +283,6 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_realsense2_description_nosetests
-
-# Build rule for target.
-run_tests_realsense2_description_nosetests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_realsense2_description_nosetests
-.PHONY : run_tests_realsense2_description_nosetests
-
-# fast build rule for target.
-run_tests_realsense2_description_nosetests/fast:
-	$(MAKE) -f realsense-ros/realsense2_description/CMakeFiles/run_tests_realsense2_description_nosetests.dir/build.make realsense-ros/realsense2_description/CMakeFiles/run_tests_realsense2_description_nosetests.dir/build
-.PHONY : run_tests_realsense2_description_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_realsense2_description
-
-# Build rule for target.
-run_tests_realsense2_description: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_realsense2_description
-.PHONY : run_tests_realsense2_description
-
-# fast build rule for target.
-run_tests_realsense2_description/fast:
-	$(MAKE) -f realsense-ros/realsense2_description/CMakeFiles/run_tests_realsense2_description.dir/build.make realsense-ros/realsense2_description/CMakeFiles/run_tests_realsense2_description.dir/build
-.PHONY : run_tests_realsense2_description/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_realsense2_description
-
-# Build rule for target.
-clean_test_results_realsense2_description: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_realsense2_description
-.PHONY : clean_test_results_realsense2_description
-
-# fast build rule for target.
-clean_test_results_realsense2_description/fast:
-	$(MAKE) -f realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/build.make realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/build
-.PHONY : clean_test_results_realsense2_description/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_realsense2_description
-
-# Build rule for target.
-_run_tests_realsense2_description: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_realsense2_description
-.PHONY : _run_tests_realsense2_description
-
-# fast build rule for target.
-_run_tests_realsense2_description/fast:
-	$(MAKE) -f realsense-ros/realsense2_description/CMakeFiles/_run_tests_realsense2_description.dir/build.make realsense-ros/realsense2_description/CMakeFiles/_run_tests_realsense2_description.dir/build
-.PHONY : _run_tests_realsense2_description/fast
-
-#=============================================================================
 # Target rules for targets named _catkin_empty_exported_target
 
 # Build rule for target.
@@ -344,47 +292,8 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f realsense-ros/realsense2_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make realsense-ros/realsense2_description/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f realsense2_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make realsense2_description/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_realsense2_description_nosetests
-
-# Build rule for target.
-_run_tests_realsense2_description_nosetests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_realsense2_description_nosetests
-.PHONY : _run_tests_realsense2_description_nosetests
-
-# fast build rule for target.
-_run_tests_realsense2_description_nosetests/fast:
-	$(MAKE) -f realsense-ros/realsense2_description/CMakeFiles/_run_tests_realsense2_description_nosetests.dir/build.make realsense-ros/realsense2_description/CMakeFiles/_run_tests_realsense2_description_nosetests.dir/build
-.PHONY : _run_tests_realsense2_description_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_realsense2_description_nosetests_tests
-
-# Build rule for target.
-run_tests_realsense2_description_nosetests_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_realsense2_description_nosetests_tests
-.PHONY : run_tests_realsense2_description_nosetests_tests
-
-# fast build rule for target.
-run_tests_realsense2_description_nosetests_tests/fast:
-	$(MAKE) -f realsense-ros/realsense2_description/CMakeFiles/run_tests_realsense2_description_nosetests_tests.dir/build.make realsense-ros/realsense2_description/CMakeFiles/run_tests_realsense2_description_nosetests_tests.dir/build
-.PHONY : run_tests_realsense2_description_nosetests_tests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_realsense2_description_nosetests_tests
-
-# Build rule for target.
-_run_tests_realsense2_description_nosetests_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_realsense2_description_nosetests_tests
-.PHONY : _run_tests_realsense2_description_nosetests_tests
-
-# fast build rule for target.
-_run_tests_realsense2_description_nosetests_tests/fast:
-	$(MAKE) -f realsense-ros/realsense2_description/CMakeFiles/_run_tests_realsense2_description_nosetests_tests.dir/build.make realsense-ros/realsense2_description/CMakeFiles/_run_tests_realsense2_description_nosetests_tests.dir/build
-.PHONY : _run_tests_realsense2_description_nosetests_tests/fast
 
 #=============================================================================
 # Target rules for targets named ur_msgs_genpy
@@ -1856,6 +1765,227 @@ tf_generate_messages_py/fast:
 .PHONY : tf_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_lisp
+
+# Build rule for target.
+gazebo_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_lisp
+.PHONY : gazebo_msgs_generate_messages_lisp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+.PHONY : gazebo_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_eus
+
+# Build rule for target.
+gazebo_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_eus
+.PHONY : gazebo_msgs_generate_messages_eus
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_eus/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+.PHONY : gazebo_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_py
+
+# Build rule for target.
+gazebo_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_py
+.PHONY : gazebo_msgs_generate_messages_py
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_py/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+.PHONY : gazebo_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_nodejs
+
+# Build rule for target.
+std_srvs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
+.PHONY : std_srvs_generate_messages_nodejs
+
+# fast build rule for target.
+std_srvs_generate_messages_nodejs/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_eus
+
+# Build rule for target.
+trajectory_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_eus
+.PHONY : trajectory_msgs_generate_messages_eus
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_eus/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+.PHONY : trajectory_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_ros_gencfg
+
+# Build rule for target.
+gazebo_ros_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_gencfg
+.PHONY : gazebo_ros_gencfg
+
+# fast build rule for target.
+gazebo_ros_gencfg/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build
+.PHONY : gazebo_ros_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_cpp
+
+# Build rule for target.
+std_srvs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_nodejs
+
+# Build rule for target.
+trajectory_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_nodejs
+.PHONY : trajectory_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+.PHONY : trajectory_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_py
+
+# Build rule for target.
+std_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_nodejs
+
+# Build rule for target.
+gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_nodejs
+.PHONY : gazebo_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+.PHONY : gazebo_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_eus
+
+# Build rule for target.
+std_srvs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
+.PHONY : std_srvs_generate_messages_eus
+
+# fast build rule for target.
+std_srvs_generate_messages_eus/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+.PHONY : std_srvs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_cpp
+
+# Build rule for target.
+gazebo_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_cpp
+.PHONY : gazebo_msgs_generate_messages_cpp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+.PHONY : gazebo_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_lisp
+
+# Build rule for target.
+std_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_cpp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_cpp
+.PHONY : trajectory_msgs_generate_messages_cpp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+.PHONY : trajectory_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_lisp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_lisp
+.PHONY : trajectory_msgs_generate_messages_lisp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+.PHONY : trajectory_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_py
+
+# Build rule for target.
+trajectory_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
+.PHONY : trajectory_msgs_generate_messages_py
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_py/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+.PHONY : trajectory_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named realsense_gazebo_plugin
+
+# Build rule for target.
+realsense_gazebo_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin
+.PHONY : realsense_gazebo_plugin
+
+# fast build rule for target.
+realsense_gazebo_plugin/fast:
+	$(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build
+.PHONY : realsense_gazebo_plugin/fast
+
+#=============================================================================
 # Target rules for targets named _run_tests_ur_bringup_roslaunch-check
 
 # Build rule for target.
@@ -2155,58 +2285,6 @@ octomap_msgs_generate_messages_nodejs/fast:
 .PHONY : octomap_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named octomap_msgs_generate_messages_eus
-
-# Build rule for target.
-octomap_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 octomap_msgs_generate_messages_eus
-.PHONY : octomap_msgs_generate_messages_eus
-
-# fast build rule for target.
-octomap_msgs_generate_messages_eus/fast:
-	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
-.PHONY : octomap_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named octomap_msgs_generate_messages_cpp
-
-# Build rule for target.
-octomap_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 octomap_msgs_generate_messages_cpp
-.PHONY : octomap_msgs_generate_messages_cpp
-
-# fast build rule for target.
-octomap_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
-.PHONY : octomap_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named object_recognition_msgs_generate_messages_py
-
-# Build rule for target.
-object_recognition_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 object_recognition_msgs_generate_messages_py
-.PHONY : object_recognition_msgs_generate_messages_py
-
-# fast build rule for target.
-object_recognition_msgs_generate_messages_py/fast:
-	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build
-.PHONY : object_recognition_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named object_recognition_msgs_generate_messages_lisp
-
-# Build rule for target.
-object_recognition_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 object_recognition_msgs_generate_messages_lisp
-.PHONY : object_recognition_msgs_generate_messages_lisp
-
-# fast build rule for target.
-object_recognition_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build
-.PHONY : object_recognition_msgs_generate_messages_lisp/fast
-
-#=============================================================================
 # Target rules for targets named shape_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -2246,6 +2324,19 @@ moveit_msgs_generate_messages_py/fast:
 .PHONY : moveit_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named octomap_msgs_generate_messages_eus
+
+# Build rule for target.
+octomap_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 octomap_msgs_generate_messages_eus
+.PHONY : octomap_msgs_generate_messages_eus
+
+# fast build rule for target.
+octomap_msgs_generate_messages_eus/fast:
+	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
+.PHONY : octomap_msgs_generate_messages_eus/fast
+
+#=============================================================================
 # Target rules for targets named visualization_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -2270,19 +2361,6 @@ shape_msgs_generate_messages_lisp: cmake_check_build_system
 shape_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build
 .PHONY : shape_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_nodejs
-
-# Build rule for target.
-trajectory_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_nodejs
-.PHONY : trajectory_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
-.PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named visualization_msgs_generate_messages_eus
@@ -2376,6 +2454,19 @@ shape_msgs_generate_messages_nodejs/fast:
 .PHONY : shape_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named object_recognition_msgs_generate_messages_py
+
+# Build rule for target.
+object_recognition_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 object_recognition_msgs_generate_messages_py
+.PHONY : object_recognition_msgs_generate_messages_py
+
+# fast build rule for target.
+object_recognition_msgs_generate_messages_py/fast:
+	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build
+.PHONY : object_recognition_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named moveit_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -2387,19 +2478,6 @@ moveit_msgs_generate_messages_cpp: cmake_check_build_system
 moveit_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build
 .PHONY : moveit_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_py
-
-# Build rule for target.
-trajectory_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named visualization_msgs_generate_messages_lisp
@@ -2480,30 +2558,17 @@ moveit_msgs_generate_messages_lisp/fast:
 .PHONY : moveit_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_cpp
+# Target rules for targets named object_recognition_msgs_generate_messages_lisp
 
 # Build rule for target.
-trajectory_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_cpp
-.PHONY : trajectory_msgs_generate_messages_cpp
+object_recognition_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 object_recognition_msgs_generate_messages_lisp
+.PHONY : object_recognition_msgs_generate_messages_lisp
 
 # fast build rule for target.
-trajectory_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-.PHONY : trajectory_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_eus
-
-# Build rule for target.
-trajectory_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_eus
-.PHONY : trajectory_msgs_generate_messages_eus
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_eus/fast:
-	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
-.PHONY : trajectory_msgs_generate_messages_eus/fast
+object_recognition_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build
+.PHONY : object_recognition_msgs_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named object_recognition_msgs_generate_messages_nodejs
@@ -2519,17 +2584,17 @@ object_recognition_msgs_generate_messages_nodejs/fast:
 .PHONY : object_recognition_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_lisp
+# Target rules for targets named octomap_msgs_generate_messages_cpp
 
 # Build rule for target.
-trajectory_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_lisp
-.PHONY : trajectory_msgs_generate_messages_lisp
+octomap_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 octomap_msgs_generate_messages_cpp
+.PHONY : octomap_msgs_generate_messages_cpp
 
 # fast build rule for target.
-trajectory_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-.PHONY : trajectory_msgs_generate_messages_lisp/fast
+octomap_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make staubli/staubli_rx160_moveit_plugins/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
+.PHONY : octomap_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named staubli_rx160_manipulator_moveit_ikfast_plugin
@@ -3203,14 +3268,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... run_tests_realsense2_description_nosetests"
-	@echo "... run_tests_realsense2_description"
-	@echo "... clean_test_results_realsense2_description"
-	@echo "... _run_tests_realsense2_description"
 	@echo "... _catkin_empty_exported_target"
-	@echo "... _run_tests_realsense2_description_nosetests"
-	@echo "... run_tests_realsense2_description_nosetests_tests"
-	@echo "... _run_tests_realsense2_description_nosetests_tests"
 	@echo "... ur_msgs_genpy"
 	@echo "... ur_msgs_generate_messages_nodejs"
 	@echo "... _ur_msgs_generate_messages_check_deps_IOStates"
@@ -3324,6 +3382,23 @@ help:
 	@echo "... roscpp_generate_messages_py"
 	@echo "... tf_generate_messages_nodejs"
 	@echo "... tf_generate_messages_py"
+	@echo "... gazebo_msgs_generate_messages_lisp"
+	@echo "... gazebo_msgs_generate_messages_eus"
+	@echo "... gazebo_msgs_generate_messages_py"
+	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... trajectory_msgs_generate_messages_eus"
+	@echo "... gazebo_ros_gencfg"
+	@echo "... std_srvs_generate_messages_cpp"
+	@echo "... trajectory_msgs_generate_messages_nodejs"
+	@echo "... std_srvs_generate_messages_py"
+	@echo "... gazebo_msgs_generate_messages_nodejs"
+	@echo "... std_srvs_generate_messages_eus"
+	@echo "... gazebo_msgs_generate_messages_cpp"
+	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... trajectory_msgs_generate_messages_py"
+	@echo "... realsense_gazebo_plugin"
 	@echo "... _run_tests_ur_bringup_roslaunch-check"
 	@echo "... _run_tests_ur_bringup"
 	@echo "... clean_test_results_ur_bringup"
@@ -3347,16 +3422,12 @@ help:
 	@echo "... _run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml"
 	@echo "... clean_test_results_ur_gazebo"
 	@echo "... octomap_msgs_generate_messages_nodejs"
-	@echo "... octomap_msgs_generate_messages_eus"
-	@echo "... octomap_msgs_generate_messages_cpp"
-	@echo "... object_recognition_msgs_generate_messages_py"
-	@echo "... object_recognition_msgs_generate_messages_lisp"
 	@echo "... shape_msgs_generate_messages_eus"
 	@echo "... octomap_msgs_generate_messages_lisp"
 	@echo "... moveit_msgs_generate_messages_py"
+	@echo "... octomap_msgs_generate_messages_eus"
 	@echo "... visualization_msgs_generate_messages_nodejs"
 	@echo "... shape_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_nodejs"
 	@echo "... visualization_msgs_generate_messages_eus"
 	@echo "... visualization_msgs_generate_messages_cpp"
 	@echo "... visualization_msgs_generate_messages_py"
@@ -3364,18 +3435,17 @@ help:
 	@echo "... moveit_msgs_generate_messages_nodejs"
 	@echo "... shape_msgs_generate_messages_cpp"
 	@echo "... shape_msgs_generate_messages_nodejs"
+	@echo "... object_recognition_msgs_generate_messages_py"
 	@echo "... moveit_msgs_generate_messages_cpp"
-	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... visualization_msgs_generate_messages_lisp"
 	@echo "... object_recognition_msgs_generate_messages_cpp"
 	@echo "... moveit_msgs_generate_messages_eus"
 	@echo "... object_recognition_msgs_generate_messages_eus"
 	@echo "... octomap_msgs_generate_messages_py"
 	@echo "... moveit_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_cpp"
-	@echo "... trajectory_msgs_generate_messages_eus"
+	@echo "... object_recognition_msgs_generate_messages_lisp"
 	@echo "... object_recognition_msgs_generate_messages_nodejs"
-	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... octomap_msgs_generate_messages_cpp"
 	@echo "... staubli_rx160_manipulator_moveit_ikfast_plugin"
 	@echo "... ur10_kin"
 	@echo "... ur3_kin"

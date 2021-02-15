@@ -19,9 +19,8 @@ for more information regarding the UR5 and simualtions go to [UR_ROS_tutorial](h
 
 #### demo
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=AlLNt7NEE1c
-" target="_blank"><img src="https://img.youtube.com/vi/AlLNt7NEE1c/2.jpg" 
-alt="ur5 gui simulation" width="720" height="540" border="10" /></a>
+[![UR5 using GUI](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/user133712616/review/512432352/a6fb6b7147 "Little red riding hood - Click to Watch!")
+
 
 
 # Simulation of Gazebo
@@ -38,9 +37,11 @@ Note1: If you want to make you own changes for the moveit_config file from strac
 
 #### demo
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=zyF3uVWnfvM
-" target="_blank"><img src="https://img.youtube.com/vi/zyF3uVWnfvM/2.jpg" 
-alt="staubli gui simulation" width="720" height="540" border="10" /></a>
+[![Staubli using GUI](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/user133712616/review/512432400/02cdc70559 "staubli using GUI - Click to Watch!")
+
+
+
+
 
 
 
@@ -60,9 +61,10 @@ Note2:  The gazebo plugin is readily available with the [IntelRealSense](https:/
 #### demo
 <!-- [![realsense gui simulation](https://img.youtube.com/vi/6YX9gutGkiU/2.jpg)](https://youtu.be/6YX9gutGkiU "realsense") -->
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=6YX9gutGkiU
-" target="_blank"><img src="https://img.youtube.com/vi/6YX9gutGkiU/2.jpg" 
-alt="d435 gui simulation" width="560" height="720" border="540" /></a>
+
+[![Intel RealSense](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/user133712616/review/512432308/24f40674df "Intel RealSense D435 - Click to Watch!")
+
+
 
 
 

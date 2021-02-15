@@ -37,7 +37,7 @@ Note1: If you want to make you own changes for the moveit_config file from strac
 
 #### demo
 
-[![Staubli using GUI](images/gazebo_rviz_gazebo.png)](https://vimeo.com/user133712616/review/512432400/02cdc70559 "staubli using GUI - Click to Watch!")
+[![Staubli using GUI](images/staubli_rviz_gazebo.png)](https://vimeo.com/user133712616/review/512432400/02cdc70559 "staubli using GUI - Click to Watch!")
 
 
 # Simulation of Intel RealSense depth camera D435

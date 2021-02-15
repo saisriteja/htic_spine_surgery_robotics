@@ -19,7 +19,7 @@ for more information regarding the UR5 and simualtions go to [UR_ROS_tutorial](h
 
 #### demo
 
-[![UR5 using GUI](images/ur5_rviz_gazebo.png)](https://vimeo.com/user133712616/review/512432352/a6fb6b7147 "UR5 using GUI - Click to Watch!")
+[![UR5 using GUI](images/ur5_rviz_gazebo.png)](https://vimeo.com/512432352 "UR5 using GUI - Click to Watch!")
 
 
 
@@ -37,7 +37,7 @@ Note1: If you want to make you own changes for the moveit_config file from strac
 
 #### demo
 
-[![Staubli using GUI](images/staubli_rviz_gazebo.png)](https://vimeo.com/user133712616/review/512432400/02cdc70559 "staubli using GUI - Click to Watch!")
+[![Staubli using GUI](images/staubli_rviz_gazebo.png)](https://vimeo.com/512432400 "staubli using GUI - Click to Watch!")
 
 
 # Simulation of Intel RealSense depth camera D435
@@ -55,7 +55,7 @@ Note2:  The gazebo plugin is readily available with the [IntelRealSense](https:/
 
 #### demo
 
-[![Intel RealSense](images/realsense_rviz_gazebo.png)](https://vimeo.com/user133712616/review/512432308/24f40674df "Intel RealSense D435 - Click to Watch!")
+[![Intel RealSense](images/realsense_rviz_gazebo.png)](https://vimeo.com/512432308 "Intel RealSense D435 - Click to Watch!")
 
 
 

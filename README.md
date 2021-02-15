@@ -21,7 +21,7 @@ for more information regarding the UR5 and simualtions go to [UR_ROS_tutorial](h
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=AlLNt7NEE1c
 " target="_blank"><img src="https://img.youtube.com/vi/AlLNt7NEE1c/2.jpg" 
-alt="ur5 gui simulation" width="240" height="180" border="10" /></a>
+alt="ur5 gui simulation" width="720" height="540" border="10" /></a>
 
 
 # Simulation of Gazebo
@@ -40,7 +40,7 @@ Note1: If you want to make you own changes for the moveit_config file from strac
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=zyF3uVWnfvM
 " target="_blank"><img src="https://img.youtube.com/vi/zyF3uVWnfvM/2.jpg" 
-alt="staubli gui simulation" width="240" height="180" border="10" /></a>
+alt="staubli gui simulation" width="720" height="540" border="10" /></a>
 
 
 
@@ -62,7 +62,7 @@ Note2:  The gazebo plugin is readily available with the [IntelRealSense](https:/
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6YX9gutGkiU
 " target="_blank"><img src="https://img.youtube.com/vi/6YX9gutGkiU/2.jpg" 
-alt="d435 gui simulation" width="240" height="180" border="10" /></a>
+alt="d435 gui simulation" width="560" height="720" border="540" /></a>
 
 
 

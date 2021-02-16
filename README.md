@@ -17,6 +17,8 @@ This repository consists of works regarding serial robotics which includes ROS S
 
 * [Integration of 3D sensors](https://onedrive.live.com/view.aspx?resid=2DFBD8B4EE7A1CC5%21316&id=documents&wd=target%28complete%20work.one%7C59597DC3-98B0-4407-BB7D-2B3E11A300DE%2F3D%20sensors%7C067EBAEF-0471-42F4-B655-009E2941512E%2F%29onenote:https://d.docs.live.net/2dfbd8b4ee7a1cc5/Documents/Robotics/ros/complete%20work.one#3D%20sensors&section-id={59597DC3-98B0-4407-BB7D-2B3E11A300DE}&page-id={067EBAEF-0471-42F4-B655-009E2941512E}&end)
 
+you can find the complete notes [here](https://1drv.ms/u/s!AsUceu602PstgjxjVIJSvhT7ExGn).
+
 # Simulation of UR5
 
 ## Using GUI 

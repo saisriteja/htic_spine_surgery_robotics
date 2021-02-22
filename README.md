@@ -73,6 +73,13 @@ Note2:  The gazebo plugin is readily available with the [IntelRealSense](https:/
 
 [![Intel RealSense](images/realsense_rviz_gazebo.png)](https://vimeo.com/512432308 "Intel RealSense D435 - Click to Watch!")
 
+when a real sense hardware is available:
+
+```
+roslaunch realsense2_camera rs_rgbd.launch
+rviz
+```
+
 
 
 

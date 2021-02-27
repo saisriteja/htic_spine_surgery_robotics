@@ -80,6 +80,7 @@ roslaunch realsense2_camera rs_rgbd.launch
 rviz
 ```
 
+RealSense [SLAM](http://robotsforroboticists.com/wordpress/wp-content/uploads/2019/09/realsense-sep-2019.pdf) tutorial
 
 
 

@@ -90,6 +90,8 @@ Things to remember while doing slam:
 * use the pcl_veiwer command to check the entire slam output in the end.
 * the rosbag file stores data in GB, delete this file in the end if your work is done.
 
+[![Real Sense Slam](images/slam.png)]
+
 
 
 

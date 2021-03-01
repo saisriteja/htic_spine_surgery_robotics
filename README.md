@@ -82,6 +82,14 @@ rviz
 
 RealSense [SLAM](http://robotsforroboticists.com/wordpress/wp-content/uploads/2019/09/realsense-sep-2019.pdf) tutorial
 
+SLAM complete setup and working process go to [github](https://github.com/IntelRealSense/realsense-ros/wiki/SLAM-with-D435i).
+
+Things to remember while doing slam:
+* don't forget to turn on mapgraph, else you will be seeing the current mesh cloud rather than a complete picture of the room.
+* do check the quality of in the terminal, if it goes to zero better go in slow velocity, if still no use, better restart.
+* use the pcl_veiwer command to check the entire slam output in the end.
+* the rosbag file stores data in GB, delete this file in the end if your work is done.
+
 
 
 

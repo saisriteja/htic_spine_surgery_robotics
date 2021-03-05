@@ -100,11 +100,13 @@ when anaconda is installed along with ros, always give the path explicitly, sinc
 1.open a terminal
 
 Type: 
-```export PATH=/usr/bin/anaconda/bin:$PATH
+```
+export PATH=/usr/bin/anaconda/bin:$PATH
 ```
 
 and then activate anaconda navigator by typing:
-``` anaconda-navigator
+``` 
+anaconda-navigator
 ```
 
 

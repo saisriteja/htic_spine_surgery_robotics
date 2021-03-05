@@ -101,7 +101,7 @@ when anaconda is installed along with ros, always give the path explicitly, sinc
 
 Type: 
 ```
-export PATH=/usr/bin/anaconda/bin:$PATH
+export PATH="/home/saisriteja/anaconda3/bin:$PATH"
 ```
 
 and then activate anaconda navigator by typing:

@@ -94,6 +94,21 @@ Things to remember while doing slam:
 
 
 
+# Useful Links
+
+when anaconda is installed along with ros, always give the path explicitly, since we need ros primarly than conda.
+1.open a terminal
+
+Type: 
+```export PATH=/usr/bin/anaconda/bin:$PATH
+```
+
+and then activate anaconda navigator by typing:
+``` anaconda-navigator
+```
+
+
+
 
 
 

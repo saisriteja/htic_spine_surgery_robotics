@@ -80,6 +80,11 @@ roslaunch realsense2_camera rs_rgbd.launch
 rviz
 ```
 
+```
+roslaunch realsense2_camera opensource_tracking.launch
+rviz
+```
+
 RealSense [SLAM](http://robotsforroboticists.com/wordpress/wp-content/uploads/2019/09/realsense-sep-2019.pdf) tutorial
 
 SLAM complete setup and working process go to [github](https://github.com/IntelRealSense/realsense-ros/wiki/SLAM-with-D435i).
@@ -89,6 +94,10 @@ Things to remember while doing slam:
 * do check the quality of in the terminal, if it goes to zero better go in slow velocity, if still no use, better restart.
 * use the pcl_veiwer command to check the entire slam output in the end.
 * the rosbag file stores data in GB, delete this file in the end if your work is done.
+
+
+Getting a 3D mesh out of cloud points: [colab](https://colab.research.google.com/drive/1fqXiP8KITOCTaoIi8V6HIQ6b13J95pfA?usp=sharing)
+Inside the collab file you have both the code for the python to capture data and store in .npy format and then you have basic visual to make a 3d mesh out of the cloud data you have.
 
 [![Real Sense Slam](images/slam.png)]
 

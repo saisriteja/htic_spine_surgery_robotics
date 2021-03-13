@@ -127,7 +127,9 @@ You can connect urx and ur-rtde at the same time, to collect data from the robot
 import urx
 robot = urx.Robot("192.16.101.225")
 robot.set_freeDrive(1)
-'''
+```
+
+I have used this while collection data during [here](https://github.com/saisriteja/htic_spine_surgery_robotics/blob/main/src/python_codes/force_torque_DataCollection.py).
 
 
 

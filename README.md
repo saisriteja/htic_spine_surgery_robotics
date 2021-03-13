@@ -103,8 +103,9 @@ Inside the collab file you have both the code for the python to capture data and
 
 
 
-# Useful Links
+# Useful Info
 
+## Working together with Anaconda and ROS. 
 when anaconda is installed along with ros, always give the path explicitly, since we need ros primarly than conda.
 1.open a terminal
 
@@ -118,6 +119,15 @@ and then activate anaconda navigator by typing:
 anaconda-navigator
 ```
 
+
+## Set Bot in Free Drive To get Data
+
+You can connect urx and ur-rtde at the same time, to collect data from the robot I have used ur-rtde and I have used IPython to set the robot in free drive using urx. Code for getting into freedrive.
+```
+import urx
+robot = urx.Robot("192.16.101.225")
+robot.set_freeDrive(1)
+'''
 
 
 

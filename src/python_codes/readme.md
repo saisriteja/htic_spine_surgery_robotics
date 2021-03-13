@@ -38,5 +38,6 @@ The work done upto now helps to move the robot in translational way only, need t
 
 ## Codes for UR5 Manipulator Movement.
 
-Have taken some random points in cartesian space, checked the movement first in RVIZ and depending on visual of trajectory, I have executed in URSIM. The speed constraints and acceleration constraints are to be known.
+[code](https://github.com/saisriteja/htic_spine_surgery_robotics/blob/main/src/python_codes/move_manip.py) for execution of movement of end-effector in cartesian space. Have taken some random points in cartesian space, checked the movement first in RVIZ and depending on visual of trajectory, I have executed in URSIM. The speed constraints and acceleration constraints are to be known.
+
 

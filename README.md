@@ -32,7 +32,9 @@ roslaunch ur_gazebo ur5.launch limited:=true
 roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true limited:=true
 roslaunch ur5_moveit_config moveit_rviz.launch config:=true
 ```
-
+```
+roslaunch ur_robot_driver ur5_bringup.launch robot_ip:=192.168.56.101
+```
 for more information regarding the UR5 and simualtions go to [UR_ROS_tutorial](http://wiki.ros.org/universal_robot/Tutorials/Getting%20Started%20with%20a%20Universal%20Robot%20and%20ROS-Industrial), [Universal_robot_github](https://github.com/ros-industrial/universal_robot) 
 
 
